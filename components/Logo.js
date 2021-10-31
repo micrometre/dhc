@@ -3,12 +3,11 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaAngleRight,  FaAngleLeft} from "react-icons/fa";
 import { wrap } from "popmotion";
-import styles from "../styles/Slider.module.css";
 import Image from "next/image";
-const images = ["/logo-about.webp"]
+const images = ["/exterior.webp"]
 
 export const ImageSlider = () => {
-  const src = `/logo-about.webp`;
+  const src = `/exterior.webp`;
   return (
     <>
    <div className=" flex flex-row justify-center w-full ">

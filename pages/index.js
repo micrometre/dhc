@@ -14,7 +14,8 @@ export default function Home(initialData) {
     <MainLayout>
           <Navbar1 />
           <Navbar2 />
-          <Moto />
+          <Logo />
+          <Gallery />
     </MainLayout>
 
   )

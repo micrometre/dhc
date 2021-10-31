@@ -4,7 +4,7 @@ import Link from 'next/link'
 import styles from './layout.module.css'
 
 
-export const siteTitle = 'Surrey Electrical and Car Charging LTD'
+export const siteTitle = 'whilbypainting'
 
 export default function Layout({ children, home }) {
   return (
